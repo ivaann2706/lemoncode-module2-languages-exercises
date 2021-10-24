@@ -1,4 +1,4 @@
-function biggestWord(phrase: string): string {
+function biggestWord(phrase) {
   const words = phrase.split(" ");
   let biggest = words[0];
 
