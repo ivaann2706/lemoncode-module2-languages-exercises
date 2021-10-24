@@ -6,7 +6,7 @@ function checkArgumentsWithNullish(input) {
   return input ?? "unknown";
 }
 
-console.log("*** Check Arguments***");
+console.log("*** Check Arguments ***");
 console.log(checkArguments("test"));
 console.log(checkArguments(null));
 console.log(checkArguments(undefined));
