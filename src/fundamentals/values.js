@@ -24,3 +24,5 @@ Person.prototype.walk = function () {
 
 var john = new Person("John");
 console.log(values(john)); // ["John"]; en vez de ["John"; function() { console.log("I'm walking"); }]
+
+export { values };
