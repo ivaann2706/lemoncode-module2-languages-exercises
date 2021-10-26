@@ -8,5 +8,6 @@ import "./fundamentals/deep-equal.js";
 import "./fundamentals/dices.js";
 import "./fundamentals/hoisting.js";
 import "./fundamentals/includes.js";
+import "./fundamentals/primes.js";
 
 console.log("Welcome to Exercises Playground.");
