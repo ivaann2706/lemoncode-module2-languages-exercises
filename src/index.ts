@@ -9,5 +9,6 @@ import "./fundamentals/dices.js";
 import "./fundamentals/hoisting.js";
 import "./fundamentals/includes.js";
 import "./fundamentals/primes.js";
+import "./fundamentals/read-book.js";
 
 console.log("Welcome to Exercises Playground.");
