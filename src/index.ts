@@ -6,5 +6,6 @@ import "./fundamentals/checkArguments.js";
 import "./fundamentals/clone-merge.js";
 import "./fundamentals/deep-equal.js";
 import "./fundamentals/dices.js";
+import "./fundamentals/hoisting.js";
 
 console.log("Welcome to Exercises Playground.");
