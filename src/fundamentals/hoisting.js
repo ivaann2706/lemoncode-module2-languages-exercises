@@ -20,13 +20,13 @@ var a2 = 1;
 (function () {
   console.log(a2); // undefined
   var a2 = 2;
-  b2 = 4; // error
+  // b2 = 4; // error
   var c2 = 3;
 })();
 
 console.log(a2);
-console.log(b2);
-console.log(c2);
+// console.log(b2);  // error
+// console.log(c2);
 
 // Section C
 f3();
@@ -34,10 +34,10 @@ var a3 = 1;
 
 function f3() {
   console.log(a3); // undefined
-  b3 = 4; // error
+  // b3 = 4; // error
   var c3 = 3;
 }
 
 console.log(a3);
-console.log(b3);
-console.log(c3);
+// console.log(b3);
+// console.log(c3);

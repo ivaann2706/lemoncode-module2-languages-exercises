@@ -14,5 +14,5 @@ var person = {
 console.log("*** This ***");
 console.log(person.wife.getSurname()); // Jiménez
 var surnameFunction = person.wife.getSurname;
-console.log(surnameFunction()); // error, undefined
+// console.log(surnameFunction()); // error, undefined
 console.log(surnameFunction.call(person)); // González
