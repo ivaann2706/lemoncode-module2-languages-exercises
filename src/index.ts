@@ -12,5 +12,6 @@ import "./fundamentals/primes.js";
 import "./fundamentals/read-book.js";
 import "./fundamentals/reverse-text.js";
 import "./fundamentals/subsets.js";
+import "./fundamentals/this.js";
 
 console.log("Welcome to Exercises Playground.");
