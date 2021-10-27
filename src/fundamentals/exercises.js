@@ -1,0 +1,16 @@
+import "./biggest-word.js";
+import "./values.js";
+import "./calificactions.js";
+import "./check-arguments.js";
+import "./clone-merge.js";
+import "./deep-equal.js";
+import "./dices.js";
+import "./hoisting.js";
+import "./includes.js";
+import "./primes.js";
+import "./read-book.js";
+import "./reverse-text.js";
+import "./subsets.js";
+import "./this.js";
+import "./zip.js";
+import "./zzcrypt.js";
