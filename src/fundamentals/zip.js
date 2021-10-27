@@ -9,10 +9,12 @@ function zipObject(keys, values) {
   return result;
 }
 
+export { zipObject };
+
 // Ejemplo
-console.log("*** zip ***");
-console.log(
-  zipObject(["spanish", "english", "french"], ["hola", "hi", "salut"])
-); // {spanish: "hola", english: "hi", french: "salut"}
-console.log(zipObject(["spanish", "english", "french"], ["hola", "hi"])); // {spanish: 'hola', english: 'hi'}
-console.log(zipObject(["spanish"], ["hola", "hi", "salut"])); // Values array cannot be greater than keys array
+// console.log("*** zip ***");
+// console.log(
+//   zipObject(["spanish", "english", "french"], ["hola", "hi", "salut"])
+// ); // {spanish: "hola", english: "hi", french: "salut"}
+// console.log(zipObject(["spanish", "english", "french"], ["hola", "hi"])); // {spanish: 'hola', english: 'hi'}
+// console.log(zipObject(["spanish"], ["hola", "hi", "salut"])); // Values array cannot be greater than keys array

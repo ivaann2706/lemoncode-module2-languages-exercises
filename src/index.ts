@@ -14,5 +14,6 @@ import "./fundamentals/reverse-text.js";
 import "./fundamentals/subsets.js";
 import "./fundamentals/this.js";
 import "./fundamentals/zip.js";
+import "./fundamentals/zzcrypt.js";
 
 console.log("Welcome to Exercises Playground.");
