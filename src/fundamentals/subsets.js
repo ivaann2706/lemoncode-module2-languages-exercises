@@ -11,7 +11,7 @@ function subsetsRecursive(word) {
   if (word.length === 1) {
     return "";
   }
-  const [head, ...tail] = word;
+  const [, ...tail] = word;
   return [tail, ...subsetsRecursive(tail)];
 }
 
