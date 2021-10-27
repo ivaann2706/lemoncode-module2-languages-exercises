@@ -1,8 +1,7 @@
-import "./fundamentals/exercise.js";
 import "./fundamentals/biggest-word.js";
 import "./fundamentals/values.js";
 import "./fundamentals/calificactions.js";
-import "./fundamentals/checkArguments.js";
+import "./fundamentals/check-arguments.js";
 import "./fundamentals/clone-merge.js";
 import "./fundamentals/deep-equal.js";
 import "./fundamentals/dices.js";
@@ -16,4 +15,4 @@ import "./fundamentals/this.js";
 import "./fundamentals/zip.js";
 import "./fundamentals/zzcrypt.js";
 
-console.log("Welcome to Exercises Playground.");
+console.log("*** Welcome to Exercises Playground. ***");
