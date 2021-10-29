@@ -21,5 +21,5 @@ f({ b: "b" });
 // 100 false
 
 // Section C
-f("JS sucks!", null, 13);
+// f("JS sucks!", null, 13);  // it is commented so that it does not fail
 // Uncaught TypeError: Cannot read properties of null (reading 'b')
