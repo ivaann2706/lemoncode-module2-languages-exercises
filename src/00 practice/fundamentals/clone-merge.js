@@ -25,10 +25,10 @@ const a = { name: "Maria", surname: "Ibañez", country: "SPA" };
 const b = { name: "Luisa", age: 31, married: true };
 
 console.log("*** Clone Merge ***");
-console.log(a);
-console.log(clone(a)); // {name: 'Maria', surname: 'Ibañez', country: 'SPA'}
-console.log(a === clone(a)); // false
-console.log(clone2(a)); // {name: 'Maria', surname: 'Ibañez', country: 'SPA'}
-console.log(a === clone2(a)); // false
-console.log(merge(a, b)); // {name: "Maria", age: 31, married: true, surname: "Ibañez", country: "SPA"}
-console.log(merge2(a, b)); // {name: "Maria", age: 31, married: true, surname: "Ibañez", country: "SPA"}
+console.log("a", a);
+console.log("clone(a)", clone(a)); // {name: 'Maria', surname: 'Ibañez', country: 'SPA'}
+console.log("a === clone(a)", a === clone(a)); // false
+console.log("clone2(a)", clone2(a)); // {name: 'Maria', surname: 'Ibañez', country: 'SPA'}
+console.log("a === clone2(a)", a === clone2(a)); // false
+console.log("merge(a, b)", merge(a, b)); // {name: "Maria", age: 31, married: true, surname: "Ibañez", country: "SPA"}
+console.log("merge2(a, b)", merge2(a, b)); // {name: "Maria", age: 31, married: true, surname: "Ibañez", country: "SPA"}
