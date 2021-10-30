@@ -6,9 +6,9 @@ This repository contains the exercises for **Module 2 - Languages** divided into
 - 01 deliverables: exercises to evaluate
 - 02 challenges: exercises to go one step further
 
-The repository structure is designed to comment or uncomment those parts that you want to execute or skip easily.
+The repository structure is designed to comment or uncomment those parts that you want to execute or skip easily. By default, only deliverable exercises are run. You can change this behaviour from the **index.ts** file.
 
-Before starting the project it is necessary to install its dependencies. To do this, run the following command:
+Before starting the project, it is necessary to install its dependencies. To do this, run the following command:
 
 ```
 yarn install
