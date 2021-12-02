@@ -11,11 +11,11 @@ The repository structure is designed to comment or uncomment those parts that yo
 Before starting the project, it is necessary to install its dependencies. To do this, run the following command:
 
 ```
-yarn install
+npm install
 ```
 
 Once ready, you can run the following command to start the project:
 
 ```
-yarn start
+npm start
 ```
