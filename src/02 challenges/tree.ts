@@ -63,5 +63,5 @@ children.forEach((child) => {
   addChild(child, name);
 });
 
-console.log("isRoot(nodo_root)", isRoot(nodo_root));
-console.log("isLeaf(nodo_root)", isLeaf(nodo_root));
+console.log("isRoot(nodo_root)", isRoot(nodo_root)); // true
+console.log("isLeaf(nodo_root)", isLeaf(nodo_root)); // false
