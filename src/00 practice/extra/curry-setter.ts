@@ -9,7 +9,6 @@ interface User {
 const set = (user: User, prop: string, value: string | number) => {
   const newUser = { ...user };
   if (Object.prototype.hasOwnProperty.call(newUser, prop)) {
-    // @ts-ignore
     newUser[prop] = value;
   } else {
     console.log(`Property ${prop} does not exist`);
@@ -29,7 +28,6 @@ set(julia, "country", "Spain");
 const setCurried = (prop: string) => (user: User, value: string | number) => {
   const newUser = { ...user };
   if (Object.prototype.hasOwnProperty.call(newUser, prop)) {
-    // @ts-ignore
     newUser[prop] = value;
   } else {
     console.log(`Property ${prop} does not exist`);

@@ -1,4 +1,3 @@
-// @ts-nocheck
 console.log("*** Console Traces ***");
 
 const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));

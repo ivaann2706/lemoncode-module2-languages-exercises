@@ -1,4 +1,3 @@
-// @ts-nocheck
 console.log("*** Memoization ***");
 
 const expensiveFunction = () => {

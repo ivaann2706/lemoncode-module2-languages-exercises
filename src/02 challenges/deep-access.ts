@@ -1,4 +1,3 @@
-// @ts-nocheck
 console.log("*** Deep Access ***");
 
 const myObject = {

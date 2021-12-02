@@ -66,7 +66,7 @@ const createMorseTransmitter = () => ({
       const word = words[wordIdx];
       for (let letterIdx = 0; letterIdx < word.length; letterIdx++) {
         const letter = word[letterIdx];
-        // @ts-ignore
+
         const letterCodes = this.morseAlphabet[letter].split("");
         console.log(letter, letterCodes);
         for (let codeIdx = 0; codeIdx < letterCodes.length; codeIdx++) {
